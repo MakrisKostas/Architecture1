@@ -39,6 +39,20 @@ namespace MyDataBase.Seeding
             db.Students.Add(s4);
             db.Students.Add(s5);
             db.SaveChanges();
+
+
+            Nurse n1 = new Nurse() { Name="Maria",Salary=1000};
+            Nurse n2 = new Nurse() { Name="Sarakova",Salary=2000};
+            Nurse n3 = new Nurse() { Name="Dimitris",Salary=3000};
+            Nurse n4 = new Nurse() { Name="Koulis",Salary=4000};
+            Nurse n5 = new Nurse() { Name="Soula",Salary=5000};
+            Nurse n6 = new Nurse() { Name="Antouaneta",Salary=6000};
+            Nurse n7 = new Nurse() { Name="Elisabeth",Salary=7000};
+            Nurse n8 = new Nurse() { Name="Chris",Salary=8000};
+            Nurse n9 = new Nurse() { Name="Mitsos",Salary=9000};
+            Nurse n10 = new Nurse() { Name="Loukas",Salary=10000};
+            
+
         }
     }
 }
