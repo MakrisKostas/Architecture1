@@ -25,6 +25,7 @@ namespace MyDataBase.Seeding
             Project p1 = new Project() { Title="C#"};
             Project p2 = new Project() { Title = "Java" };
             Project p3 = new Project() { Title = "Html" };
+
             p1.Student = s1;
             p2.Student = s2;
             p3.Student = s3;

@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
 using System.Linq.Expressions;
+using Entities.School;
 
 namespace PersistanceLayerNoGeneric.Repositories
 {

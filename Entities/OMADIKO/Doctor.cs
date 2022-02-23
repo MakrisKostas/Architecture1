@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entities.Shcool
 {
-    class Doctor
+    public class Doctor
     {
 
     }
