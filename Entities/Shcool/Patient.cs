@@ -8,6 +8,5 @@ namespace Entities.Shcool
 {
 	class Patient
 	{
-		
 	}
 }
