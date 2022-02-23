@@ -8,5 +8,6 @@ namespace Entities.Shcool
 {
     class Doctor
     {
+
     }
 }
