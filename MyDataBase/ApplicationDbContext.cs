@@ -30,5 +30,6 @@ namespace MyDataBase
         public DbSet<Project> Projects { get; set; }
         public DbSet<Patient> Patient { get; set; }
 
+        public DbSet<Nurse> Nurses { get; set; }
     }
 }

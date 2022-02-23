@@ -8,6 +8,8 @@ namespace Entities.Shcool
 {
     public class Nurse
     {
-
+        public int NurseId { get; set; }
+        public string Name { get; set; }
+        public int Salary { get; set; }
     }
 }
