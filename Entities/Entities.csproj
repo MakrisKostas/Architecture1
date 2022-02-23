@@ -56,10 +56,10 @@
   <ItemGroup>
     <Compile Include="CustomValidations\MyValidationMethods.cs" />
     <Compile Include="IdentityUsers\ApplicationUser.cs" />
-    <Compile Include="Shcool\Doctor.cs" />
-    <Compile Include="Shcool\Medicine.cs" />
-    <Compile Include="Shcool\Nurse.cs" />
-    <Compile Include="Shcool\Patient.cs" />
+    <Compile Include="OMADIKO\Doctor.cs" />
+    <Compile Include="OMADIKO\Medicine.cs" />
+    <Compile Include="OMADIKO\Nurse.cs" />
+    <Compile Include="OMADIKO\Patient.cs" />
     <Compile Include="Shcool\Project.cs" />
     <Compile Include="Shcool\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -68,8 +68,6 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="OMADIKO\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
