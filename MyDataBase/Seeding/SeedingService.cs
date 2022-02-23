@@ -1,5 +1,6 @@
 ﻿using Entities.School;
 using Entities.Shcool;
+using Entities.OMADIKO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,10 +26,14 @@ namespace MyDataBase.Seeding
             Project p1 = new Project() { Title="C#"};
             Project p2 = new Project() { Title = "Java" };
             Project p3 = new Project() { Title = "Html" };
+            Patient t1 = new Patient() { Name = "Spiros", Arwstia = "Ilara" };
+            Patient t2 = new Patient() { Name = "Kostas", Arwstia = "COVID" };
+            Patient t3 = new Patient() { Name = "Maria", Arwstia = "Amigdales" };
 
             p1.Student = s1;
             p2.Student = s2;
             p3.Student = s3;
+
 
             db.Projects.Add(p1);
             db.Projects.Add(p2);
@@ -39,6 +44,10 @@ namespace MyDataBase.Seeding
             db.Students.Add(s3);
             db.Students.Add(s4);
             db.Students.Add(s5);
+
+            db.Patient.Add(t1);
+            db.Patient.Add(t2);
+            db.Patient.Add(t3);
             db.SaveChanges();
         }
     }
