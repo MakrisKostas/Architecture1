@@ -56,6 +56,7 @@
   <ItemGroup>
     <Compile Include="CustomValidations\MyValidationMethods.cs" />
     <Compile Include="IdentityUsers\ApplicationUser.cs" />
+    <Compile Include="Shcool\Medicine.cs" />
     <Compile Include="Shcool\Project.cs" />
     <Compile Include="Shcool\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
