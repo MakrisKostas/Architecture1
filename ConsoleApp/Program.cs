@@ -21,7 +21,7 @@ namespace ConsoleApp
             var projects=projectServise.GetProjectOrderBy();
             foreach (var project in projects)
             {
-                Console.WriteLine(project);
+                Console.WriteLine(project.Title);
             }
         }
     }
