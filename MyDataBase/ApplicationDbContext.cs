@@ -9,6 +9,7 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Entities.IdentityUsers;
 using MyDataBase.Initializers;
 using Entities.Shcool;
+using Entities.OMADIKO;
 
 namespace MyDataBase
 {
@@ -27,6 +28,7 @@ namespace MyDataBase
 
         public DbSet<Student> Students { get; set; }
         public DbSet<Project> Projects { get; set; }
+        public DbSet<Patient> Patient { get; set; }
 
     }
 }
