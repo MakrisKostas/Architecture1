@@ -15,14 +15,6 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            ApplicationDbContext context = new ApplicationDbContext();
-            ProjectRepository projectServise = new ProjectRepository(context);
-
-            var projects=projectServise.GetProjectOrderBy();
-            foreach (var project in projects)
-            {
-                Console.WriteLine(project.Title);
-            }
         }
     }
 }
