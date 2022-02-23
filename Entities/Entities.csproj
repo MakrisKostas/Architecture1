@@ -57,6 +57,7 @@
     <Compile Include="CustomValidations\MyValidationMethods.cs" />
     <Compile Include="IdentityUsers\ApplicationUser.cs" />
     <Compile Include="Shcool\Doctor.cs" />
+    <Compile Include="Shcool\Medicine.cs" />
     <Compile Include="Shcool\Nurse.cs" />
     <Compile Include="Shcool\Patient.cs" />
     <Compile Include="Shcool\Project.cs" />
