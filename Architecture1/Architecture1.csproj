@@ -181,6 +181,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\APIControllers\DoctorController.cs" />
     <Compile Include="Controllers\APIControllers\ProjectsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -276,6 +277,10 @@
     <ProjectReference Include="..\MyDataBase\MyDataBase.csproj">
       <Project>{60e44733-a49c-4966-a642-d16241ec1029}</Project>
       <Name>MyDataBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PersistanceGeneric\PersistanceGeneric.csproj">
+      <Project>{94342976-da3b-451b-878a-4822588d7f00}</Project>
+      <Name>PersistanceGeneric</Name>
     </ProjectReference>
     <ProjectReference Include="..\PersistanceLayerNoGeneric\PersistanceLayerNoGeneric.csproj">
       <Project>{83c342c0-f871-4467-b9e6-283c1767ae11}</Project>

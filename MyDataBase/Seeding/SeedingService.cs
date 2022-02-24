@@ -32,9 +32,9 @@ namespace MyDataBase.Seeding
             Patient t2 = new Patient() { Name = "Kostas", Arwstia = "COVID" };
             Patient t3 = new Patient() { Name = "Maria", Arwstia = "Amigdales" };
 
-            Doctor d1 = new Doctor() { Name = "Makis", YearOfBirth = 1992 };
-            Doctor d2 = new Doctor() { Name = "Lazaros", YearOfBirth = 1983 };
-            Doctor d3 = new Doctor() { Name = "Kuriakos", YearOfBirth = 1966 };
+            Doctor d1 = new Doctor() { Name = "Makis", YearOfBirth = 1992,Salary=1000 };
+            Doctor d2 = new Doctor() { Name = "Lazaros", YearOfBirth = 1983 ,Salary=1600};
+            Doctor d3 = new Doctor() { Name = "Kuriakos", YearOfBirth = 1966 ,Salary=1700};
 
             p1.Student = s1;
             p2.Student = s2;

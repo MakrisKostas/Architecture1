@@ -8,11 +8,12 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace PersistanceGeneric.Repositories
 {
-    public class DoctorRespository: GenericRepository<Doctor>,IDoctorRepository
+    public class DoctorRepository: GenericRepository<Doctor>,IDoctorRepository
     {
-        public DoctorRespository(ApplicationDbContext context) : base(context)
+        public DoctorRepository(ApplicationDbContext context) : base(context)
         {
         }
 
