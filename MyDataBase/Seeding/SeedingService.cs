@@ -23,12 +23,18 @@ namespace MyDataBase.Seeding
             Student s3 = new Student() { Name = "Aris", Age = 34 };
             Student s4 = new Student() { Name = "Maria", Age = 34 };
             Student s5 = new Student() { Name = "Konstantina", Age = 34 };
+
             Project p1 = new Project() { Title="C#"};
             Project p2 = new Project() { Title = "Java" };
             Project p3 = new Project() { Title = "Html" };
+
             Patient t1 = new Patient() { Name = "Spiros", Arwstia = "Ilara" };
             Patient t2 = new Patient() { Name = "Kostas", Arwstia = "COVID" };
             Patient t3 = new Patient() { Name = "Maria", Arwstia = "Amigdales" };
+
+            Doctor d1 = new Doctor() { Name = "Makis", YearOfBirth = 1992 };
+            Doctor d2 = new Doctor() { Name = "Lazaros", YearOfBirth = 1983 };
+            Doctor d3 = new Doctor() { Name = "Kuriakos", YearOfBirth = 1966 };
 
             p1.Student = s1;
             p2.Student = s2;
@@ -48,6 +54,13 @@ namespace MyDataBase.Seeding
             db.Patient.Add(t1);
             db.Patient.Add(t2);
             db.Patient.Add(t3);
+
+            db.Doctors.Add(d1);
+            db.Doctors.Add(d2);
+            db.Doctors.Add(d3);
+
+
+
             db.SaveChanges();
 
 
